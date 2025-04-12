@@ -1,0 +1,13 @@
+setting_value,Type
+,Path_to_Log_File_To_Enrich
+,Entra_Client_ID
+,Entra_Client_Secret
+,Tenant_ID
+,Path_to_Field_Configuration_File
+,VT_API_Key
+,IP_Info_API_Key
+,IP_Abuse_DB_API_Key
+,IPQS_API_Key
+,Output_Path
+,Output_Option
+,Input_File_Format
