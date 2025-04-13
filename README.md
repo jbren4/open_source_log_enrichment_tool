@@ -46,13 +46,13 @@
    - **Configure field_config.csv**
         
         - Specify values in the field_name column
-            -Here indicate the field names that will be levereged to enrich the logs
+            - Here indicate the field names that will be levereged to enrich the logs
         - Specify values in the type column 
-            -Here indicate the datatype of the field
+            - Here indicate the datatype of the field
                 -Only IP and Account types are currently supported
         - Specify values in Unique_Account_Identifer column
-            -This is only required for fields of account type
-            -This value specifies the Entra ID account attribute that uniquely idetifies the account format in the log
+            - This is only required for fields of account type
+            - This value specifies the Entra ID account attribute that uniquely idetifies the account format in the log
    - cd ..
    - **Install necessary Python modules:** 
        - pip install -r requirements.txt
