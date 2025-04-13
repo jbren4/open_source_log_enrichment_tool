@@ -49,10 +49,10 @@
             - Here indicate the field names that will be levereged to enrich the logs
         - Specify values in the type column 
             - Here indicate the datatype of the field
-                -Only IP and Account types are currently supported
+                - Only IP and Account types are currently supported
         - Specify values in Unique_Account_Identifer column
             - This is only required for fields of account type
-            - This value specifies the Entra ID account attribute that uniquely idetifies the account format in the log
+            - This value specifies the Entra ID account attribute that uniquely identifies the account format in the log
    - cd ..
    - **Install necessary Python modules:** 
        - pip install -r requirements.txt
