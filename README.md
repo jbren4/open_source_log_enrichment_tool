@@ -1,13 +1,14 @@
-#Open Source Log Enrichment tool
+# Open Source Log Enrichment tool
 
     This is an open source modular log enrichment tool that enriches JSON or CSV logs with:
         -IP Geolocation
         -Threat Intel data
         -Cloud Directory Information
     Designed by security engineers for Detection Engineering, SOAR Automations, and Incident Responders
+
 ---
 
-##Main Features
+## Main Features
     -Batch Processing of input JSON/CSV logs
     -Enriched logs are written to disk as JSON/CSV files
     -API Integrations with threat intel and cloud directories
@@ -18,11 +19,10 @@
         -Entra ID
         -Modular and easy to expand
     -Currently IP and accounts fields are supported 
+
 ---
 
-
-
-##Getting Started and Configuration
+## Getting Started and Configuration
     -Clone the repo: git clone https://github.com/
     -cd ./open_source_log_enrichment_tool/configfiles
     -Configure script_config.csv
@@ -55,11 +55,15 @@
     -Configure enrich_logs.py
         -On Line 9: Enter the path to script_config.csv
             -pd.read_csv('PATH_TO_script_config.csv')
-#Run the Project
+
+---
+
+## Run the Project
     python3 enrich_logs.py
 
+---
 
-##Roadmap
+## Roadmap
     -[x] CSV and JSON batch processing
     -[x] API integration for enriching IP fields 
     -[x] API integration for enriching account fields
