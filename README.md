@@ -23,9 +23,9 @@
 ---
 
 ## Getting Started and Configuration
-    -Clone the repo: git clone https://github.com/
-    -cd ./open_source_log_enrichment_tool/configfiles
-    -Configure script_config.csv
+    - Clone the repo: git clone https://github.com/jbren4/open_source_log_enrichment_tool
+    - cd ./open_source_log_enrichment_tool/configfiles
+    - **Configure script_config.csv**
         -Specify values in setting_value column
             /path_to_CSV_or_JSON_log_file_to_enrich Path_to_Log_File_To_Enrich
             Client_ID_Obtained_From_Entra_ID Entra_Client_ID
@@ -39,7 +39,7 @@
             /Path_To_write_enriched_log_files   Output_Path
             Output format (JSON or CSV)         Output_Option
             Input_Log_File_Format (JSON/CSV)    Input_File_Format
-   -Configure field_config.csv
+   - **Configure field_config.csv**
         -Specify values in the field_name column
             -Here indicate the field names that will be levereged to enrich the logs
         -Specify values in the type column 
@@ -48,11 +48,11 @@
         -Specify values in Unique_Account_Identifer column
             -This is only required for fields of account type
             -This value specifies the Entra ID account attribute that uniquely idetifies the account format in the log
-    -cd ..
-    -Install necessary Python modules: 
+    - cd ..
+    - **Install necessary Python modules:** 
         -pip install -r requirements.txt
-    -cd ./src
-    -Configure enrich_logs.py
+    - cd ./src
+    - **Configure enrich_logs.py**
         -On Line 9: Enter the path to script_config.csv
             -pd.read_csv('PATH_TO_script_config.csv')
 
